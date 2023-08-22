@@ -15,7 +15,7 @@ const Trains = () => {
   return (
     <div className="min-w-screen min-h-screen bg-black text-white">
       <div className="text-center text-[2rem] font-bold">Westside Trains</div>
-      <div className="flex flex-row flex-wrap">
+      <div className="flex flex-row flex-wrap gap-3">
         {data &&
           data.length > 0 &&
           data?.map((item, key) => {
