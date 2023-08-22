@@ -22,6 +22,7 @@ const SingleTrain = ({ data }) => {
         hrs
       </div>
       <div className="flex flex-col items-center gap-2">
+        Seats
         <div className="flex flex-row gap-3">
           <div className="flex flex-col justify-center items-center border-2 rounded-xl p-2">
             <span>AC</span>
